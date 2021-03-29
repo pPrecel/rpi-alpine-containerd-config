@@ -4,4 +4,12 @@ This repository contains setup tools to create a small and simple containerd ser
 ## prerequisites
 
 1. [Install Alpine Linux on your raspberry pi](https://wiki.alpinelinux.org/wiki/Raspberry_Pi)
-2. wget this repo and run `bootstrap.sh`
+
+2. Download and run scripts
+
+    ``` bash
+        wget -O rpi-config.tar.gz https://github.com/pPrecel/rpi-alpine-containerd-config/archive/main.tar.gz \
+            tar -zxf rpi-config.tar.gz \
+            cd rpi-alpine-containerd-config-main/ \
+            ./bootstrap.sh
+    ```
