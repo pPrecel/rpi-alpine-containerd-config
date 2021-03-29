@@ -1,10 +1,5 @@
 #!/usr/bin/env fish
 
-alias apk='echo'
-alias adduser='echo'
-alias rc-update='echo'
-alias service='echo'
-
 function info
         echo ' '(set_color --bold blue)' .. '(set_color normal)'  '$argv
 end
