@@ -36,7 +36,7 @@ apk update 1>/dev/null
 set dev_tools sudo curl bat vim git htop openrc containerd containerd-openrc
 
 for app in $dev_tools
-        and apk add $app 1>/dev/null
+        apk add $app 1>/dev/null
         info "installation complete for $app"
         or abort "can't install $app"
 end
