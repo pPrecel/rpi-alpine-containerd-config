@@ -13,7 +13,7 @@ function abort
         exit 1
 end
 
-adduser -u cuser -s /usr/bin/fish
+adduser cuser -s /usr/bin/fish
     and info "cuser created"
     and echo "cuser ALL=(ALL) ALL" > /etc/sudoers
     and info "cuser is now in the sudoers"
