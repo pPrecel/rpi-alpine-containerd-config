@@ -8,8 +8,8 @@ This repository contains setup tools to create a small and simple containerd ser
 2. Download and run scripts
 
     ``` bash
-        wget -O rpi-config.tar.gz https://github.com/pPrecel/rpi-alpine-containerd-config/archive/main.tar.gz \
-            tar -zxf rpi-config.tar.gz \
-            cd rpi-alpine-containerd-config-main/ \
-            ./bootstrap.sh
+        wget -O rpi-config.tar.gz https://github.com/pPrecel/rpi-alpine-containerd-config/archive/main.tar.gz
+        tar -zxf rpi-config.tar.gz
+        cd rpi-alpine-containerd-config-main/
+        ./bootstrap.sh
     ```
